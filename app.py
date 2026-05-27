@@ -21,7 +21,7 @@ st.set_page_config(
 # =====================================================
 
 try:
-    API_KEY = st.secrets["API_KEY"]
+    API_KEY = st.secrets["fw_TUbfVQ2rJ6sJpuWPptaHoC"]
 except KeyError:
     st.error("⚠️ API_KEY not found. Add it to `.streamlit/secrets.toml` (local) or Streamlit Cloud Secrets.")
     st.stop()
